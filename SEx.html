@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Border</title>
+</head>
+<style> 
+    a{
+        text-decoration: none;
+        margin-left: 700px;
+    }
+    a{
+        background: linear-gradient(to right, transparent, transparent),
+        linear-gradient(to right, #7B68EE, #9932CC, #9400D3, #8A2BE2, #8B008B, #4B0082);
+        background-size: 100% 3px, 0 3px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 400ms;
+        
+    }
+    a:hover{
+        background-size: 0 3px, 100% 3px;
+}
+    body{
+        background-color: black;
+        
+    }
+</style>
+<body>
+    <a href="#">GRADIENT ATO_tm</a>
+</body>
+</html>
